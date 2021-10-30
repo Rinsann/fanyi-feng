@@ -1,7 +1,13 @@
 {
   "name": "fanyi-feng",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "dist/main.js",
+  "bin": {
+    "fy": "dist/cli.js"
+  },
+  "files": [
+    "dist/**/*.js"
+  ],
   "scripts": {
     "start": "ts-node-dev src/main.ts"
   },
