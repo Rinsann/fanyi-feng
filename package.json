@@ -1,0 +1,17 @@
+{
+  "name": "fanyi-feng",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev src/main.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "3.0.2",
+    "md5": "2.2.1"
+  },
+  "devDependencies": {
+    "@types/md5": "2.1.33",
+    "@types/node": "^16.11.6"
+  }
+}
